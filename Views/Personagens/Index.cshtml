@@ -1,0 +1,47 @@
+﻿</CRUD_NESS_ALAN.Models.Entidades.Personagem>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @html.DisplayNameFor(model => model.NomePersonagem)
+            </th>
+            <th>
+                @html.DisplayNameFor(model => model.Poder)
+            </th>
+        <th></th>
+    </tr>
+</thead>
+<tbody>
+
+@foreach (var Item In Model) {
+        <tr>
+            <td>
+                @html.DisplayFor(modelItem => ItemId)
+            </td>
+            <td>
+                @html.DisplayFor(modelItem => ItemNomePersonagem)
+            </td>
+            <td>
+                @html.DisplayFor(modelItem => ItemPoder)
+            </td>
+            <td>  
+                @html.ActionLink("Edit", "Edit", new { /" Id = ItemId.PrimaryKey //"})
+                @html.ActionLink("Details", "Details", new { /" Id = ItemId.PrimaryKey //"})
+                @html.ActionLink("Delete", "Delete", new { /" Id = ItemId.PrimaryKey //"})
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+

@@ -1,0 +1,53 @@
+﻿@model CRUD_NESS_ALAN.Models.Personagem
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Delete</h2>
+
+<div>
+    <h4>Personagem</h4>
+    <hr />
+    <dl class="dl-horizontal"
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomePersonagem)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomePersonagem)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Poder)
+        </dt>
+        <dd>
+            @if(Model.Poder == 1)
+            {
+                <label>Água</label>
+            }
+            else
+            if(Model.Poder == 2)
+            {
+                <label>Fogo</label>
+            }
+            else
+            if(Model.Poder == 3)
+            {
+                <label>Vento</label>
+            }
+            else
+            if(Model.Poder == 4)
+            {
+                <label>Terra</label>
+            }
+        </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /*Id = Model.PrimaryKey */})
+    <a asp-action="Index">Back To List</a>
+</div>

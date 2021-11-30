@@ -1,0 +1,8 @@
+C:\Users\Magazine Luiza\Documents\Visual Studio 2022\CRUD NESS ALAN\obj\Debug\net6.0\CRUD NESS ALAN.csproj.AssemblyReference.cache
+C:\Users\Magazine Luiza\Documents\Visual Studio 2022\CRUD NESS ALAN\obj\Debug\net6.0\CRUD NESS ALAN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Magazine Luiza\Documents\Visual Studio 2022\CRUD NESS ALAN\obj\Debug\net6.0\CRUD NESS ALAN.AssemblyInfoInputs.cache
+C:\Users\Magazine Luiza\Documents\Visual Studio 2022\CRUD NESS ALAN\obj\Debug\net6.0\CRUD NESS ALAN.AssemblyInfo.cs
+C:\Users\Magazine Luiza\Documents\Visual Studio 2022\CRUD NESS ALAN\obj\Debug\net6.0\CRUD NESS ALAN.csproj.CoreCompileInputs.cache
+C:\Users\Magazine Luiza\Documents\Visual Studio 2022\CRUD NESS ALAN\obj\Debug\net6.0\CRUD NESS ALAN.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Magazine Luiza\Documents\Visual Studio 2022\CRUD NESS ALAN\obj\Debug\net6.0\CRUD NESS ALAN.RazorAssemblyInfo.cache
+C:\Users\Magazine Luiza\Documents\Visual Studio 2022\CRUD NESS ALAN\obj\Debug\net6.0\CRUD NESS ALAN.RazorAssemblyInfo.cs
